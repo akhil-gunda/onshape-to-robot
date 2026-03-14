@@ -114,7 +114,7 @@ class Config:
         self.output_filename = "".join(
             c for c in self.output_filename if c.isalnum() or c in ("_", "-")
         ).rstrip()
-        self.assets_directory: str = self.get("assets_directory", "assets")
+        self.assets_directory: str = self.get("assets_directory", "meshes")
 
         # Main settings
         self.document_id: str = self.get("document_id", required=False)
