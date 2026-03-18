@@ -8,3 +8,6 @@ build
 onshape_to_robot.egg-info
 .env
 uv.lock
+/onshape_to_robot/meshes/*
+/onshape_to_robot/urdf/*
+/onshape_to_robot/config.json
